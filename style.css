@@ -1,0 +1,69 @@
+*,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    margin: 3%;
+}
+
+.text-judul {
+    color: silver;
+    list-style-type:none;
+    margin-right: 5%;
+    font-family: "Montserrat", sans-serif;
+}
+
+.container-div {
+    display: flex;
+    align-items: center;
+}
+
+.profil-image {
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+}
+.a-profile {
+
+}
+.container-email{
+    border: 0.5px solid white ;
+    margin-left: 50%;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    height: 20%;
+    text-decoration: none;
+}
+.container-email:hover{
+    background-color:#2d3436;
+}
+
+.text-email {
+    list-style-type:none;
+    font-style:normal;
+    color: aliceblue;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+}
+.konten-judul {
+    font-size: 100px;
+    color: aliceblue;
+    list-style-type:none;
+    margin-left: 5%;
+    margin-top: 5%;
+    font-family: "Montserrat", sans-serif;
+}
+
+.a-judul {
+    color: silver;
+    text-decoration: none;
+}
+
+.a-judul:hover {
+    color: aliceblue;
+    text-decoration: none;
+}
