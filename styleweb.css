@@ -1,0 +1,113 @@
+*,
+html {
+    margin: 0;
+    padding: 0;
+}
+ /* CSS untuk efek smooth scrolling */
+ html {
+    scroll-behavior: smooth;
+}
+body {
+    background-color: #171c22;
+    margin: 3%;
+}
+
+.text-judul {
+    color: silver;
+    list-style-type:none;
+    margin-left: 5%;
+    font-family: "Montserrat", sans-serif;
+}
+
+.container-div {
+    display: flex;
+    align-items: center;
+}
+
+.profil-image {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.container-email {
+    color: silver;
+    list-style-type:none;
+    text-decoration: none;
+    margin-left: 50%;
+    font-family: "Montserrat", sans-serif;
+    border: 0.1pt solid white;
+    border-radius: 3px; /* Sudut melengkung 20px */
+    padding: 5px;
+}
+
+.container-email:hover {
+    background-color: #20272f;
+}
+.konten-judul {
+    font-size: 50px;
+    color: aliceblue;
+    list-style-type:none;
+    margin-left: 15px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+}
+.konten-judul2 {
+    font-size: 50px;
+    color: aliceblue;
+    list-style-type:none;
+    margin-left: 15px;
+    margin-top: 300px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.a-judul {
+    color: silver;
+    text-decoration: none;
+}
+
+.a-judul:hover {
+    color: aliceblue;
+    text-decoration: none;
+    
+}
+
+.image-konten {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #171c22;
+}
+
+.image-konten1 {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.list-item{
+    color: aliceblue;
+    font-family: "Montserrat", sans-serif;
+    text-decoration:none;
+}
+.text-list {
+    margin-top: 35px;
+    color: silver;
+    text-decoration:none;
+    text-decoration: underline;
+      text-underline-offset: 20px;
+    font-family: "Montserrat", sans-serif;
+}
+.text-list:hover {
+    color: aliceblue;
+}
+.judul-list{
+    color: silver;
+    font-family: "Montserrat", sans-serif;
+    margin-left: -20px;
+}
+.a-href{
+    text-decoration:none;
+}
+/* <!-- NAVBAR AND --> */

@@ -1,0 +1,175 @@
+*,
+html {
+    margin: 0;
+    padding: 0;
+}
+ /* CSS untuk efek smooth scrolling */
+ html {
+    scroll-behavior: smooth;
+}
+body {
+    background-color: #171c22;
+    margin: 3%;
+}
+
+.text-judul {
+    color: silver;
+    list-style-type:none;
+    margin-left: 5%;
+    font-family: "Montserrat", sans-serif;
+}
+
+.container-div {
+    display: flex;
+    align-items: center;
+}
+
+.profil-image {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.container-email {
+    color: silver;
+    list-style-type:none;
+    text-decoration: none;
+    margin-left: 50%;
+    font-family: "Montserrat", sans-serif;
+    border: 0.1pt solid white;
+    border-radius: 3px; /* Sudut melengkung 20px */
+    padding: 5px;
+}
+
+.container-email:hover {
+    background-color: #20272f;
+}
+.konten-judul {
+    font-size: 50px;
+    color: aliceblue;
+    list-style-type:none;
+    margin-left: 15px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+}
+.konten-judul2 {
+    font-size: 50px;
+    color: aliceblue;
+    list-style-type:none;
+    margin-left: 15px;
+    margin-top: 300px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.a-judul {
+    color: silver;
+    text-decoration: none;
+}
+
+.a-judul:hover {
+    color: aliceblue;
+    text-decoration: none;
+    
+}
+
+.image-konten {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-konten1 {
+    width: 500px;
+    height: 500px;
+    animation:ease-in;
+    animation-duration: 10s;
+}
+
+/* <!-- NAVBAR AND --> */
+
+/* <!-- FORTOFOLIO --> */
+.image-konten2 {
+    width: 500px;
+    height: 500px;
+    animation:ease-in;
+    animation-duration: 10s;
+    margin-top: 150px;
+}
+.footer-div {
+    width: 100%;
+    height: 1000px;
+    background-color: #20272f;
+    display: flex;
+    justify-content: center;
+}
+.footer1-div {
+    width: 100%;
+    height: 500px;
+    background-color: #171c22;
+    display: flex;
+    justify-content: center;
+}
+.item-footer {
+    background-color: #712ad8;
+    width: 300px;
+    height: 300px;
+    margin-top: -150px;
+    margin-inline-start: 30px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5); /* Bayangan dengan jarak dan blur */
+    text-decoration: none;
+    transition: background-color 5s ease,box-shadow 1s,widht 1s,height 1s,margin-top 1s, transform 1s ease; /* Efek delay selama 0.5 detik */
+}
+.item-footer:hover {
+    width: 320px;
+    height: 320px;
+    margin-top: -150px;
+    margin-top: -170px;
+    margin-inline-start: 30px;
+    box-shadow: 10px 10px 15px rgba(102, 102, 101, 0.5); /* Bayangan dengan jarak dan blur */
+    text-decoration: none;
+    /* transform: scale(1.1); Membesarkan elemen saat dihover */
+}
+.item-media {
+    background-color: #171c22;
+    width: 300px;
+    height: 300px;
+    margin-top: -150px;
+    margin-inline-start: 30px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5); /* Bayangan dengan jarak dan blur */
+    text-decoration: none;
+    transition: background-color 5s ease,box-shadow 1s,widht 1s,height 1s,margin-top 1s, transform 1s ease; /* Efek delay selama 0.5 detik */
+}
+.item-media:hover {
+    width: 320px;
+    height: 320px;
+    margin-top: -150px;
+    margin-top: -170px;
+    margin-inline-start: 30px;
+    box-shadow: 10px 10px 15px #712ad8; /* Bayangan dengan jarak dan blur */
+    text-decoration: none;
+}
+.ui-item {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    margin-top: 10PX;
+    text-decoration: none;
+}
+.ui-design {
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    list-style-type:none;
+    margin-left: 20px;
+    font-weight:600;
+    margin-top: 2px;
+    text-decoration: none;
+}
+.ui-descripsi {
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+    list-style-type:none;
+    margin-left: 20px;
+    margin-top: 10px;
+    text-decoration: none;
+}
